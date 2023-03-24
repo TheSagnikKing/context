@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 64px;
+}
+
+.link{
+    color: #fff;
+    text-decoration: none;
+    
+    font-size: 1.3rem;
+}
+
+.link:hover{
+    color: black;
+}
+
+.cart-icon-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.cart-icon-box img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.icon{
+    cursor: pointer;
+    color: crimson;
+    font-size:20px;
+}
